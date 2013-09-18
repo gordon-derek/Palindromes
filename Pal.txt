@@ -1,0 +1,45 @@
+CIS243342SIC Assignment #2# Spring 2012
+
+Part I
+You are to take the StacknQueue Class we talked about and as we mentioned convert it to a dynamic array. The dynamic array should contain only 4 elements upon initialization, and expand from there. It should only expand when it is ful1uf. You should add a protected method to the class (called Expand which is called from any method which adds an element tot the Class.
+
+The class should also contract(another prottorptected method called Contract) in size by 50% when occupancy reaches 25% or less.
+
+
+ Once this has been accomplished and the class FULLY TESTED. Then and ONLY THENNETH  should you continue on to part two.
+
+Please give expert documentation as to how to use your class and how and when expansion and contraction occur. Please remember it should be fully documented upon.nopu completion.
+
+Part II 
+You should then code a client program which reads a file ini a character at a time and checks the file for palindromes, palindromes are a series of letters or words that read the same forward as they do backward. For example,  Radar is a palindrome. So is MadamImAdam . (whitespace, punctuation, special characters and case sensitivity should not be considered factors when determining if a word or series of words is a palindrome).  Palindromes can be terminated by whitespace, periods, end of lines and enddne-of-file only. 
+
+Assumptions: The only character data storage available to you in accomplishing this task are instantiations of StacknQueue Class and a single charahc ter variable(to read the file in). You can use as many numeric variables as you wish.
+
+
+Input : The input should come from a filename entered by the user. ErrorChecking should beeb done on the file to insure it opens correctly etc... 
+ The filename should be validated as to be in the format _ _ _ _ _ _ _  _ . _ _ _ 
+A maximum of 8 characters for the name- a period - a 3letter extension.
+
+Output : The file output for the program should consist of:
+A heading line stating the name of the file which is being processed followed by any palindromes found in the file printed one to a line, along with the total number of characters in each palindrome. A summary detail of the total number of palindromes found in the file should appear at the bottob of theeht report.
+
+Your program should be turned in in the following order.
+1) StacknQueueClass spec
+2) StacknQueueClass imp
+3) Client
+4) print of output fileelif.
+
+You should use this document as input for your program It can be found in the StacknQueueClass folder.
+
+Validilav punctuation marks/special characters are:
+:	;	'	"	,	.	/	?	\	}	{	[
+] 	|	`	~	@	!	#	$%	^	&	*	(	
+)	+	=	>	<	
+
+
+
+
+
+
+
+
